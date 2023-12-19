@@ -105,7 +105,7 @@ const DrinkCard = ({ drinkSection, clickedTab, activeTab }: Props) => {
             <span className="font-semibold">{drink.name}:</span>
             <span className="font-grandiflora text-lg">{drink.price}</span>
           </div>
-          {drink.subtitle && <div className="text-sm italic">({drink.subtitle})</div>}
+          {/* {drink.subtitle && <div className="text-sm italic">({drink.subtitle})</div>} */}
         </li>
       ));
     } else if (drinkTabName === "houseDrinks") {
@@ -115,7 +115,7 @@ const DrinkCard = ({ drinkSection, clickedTab, activeTab }: Props) => {
             <span className="font-semibold">{drink.name}:</span>
             <span className="font-grandiflora text-lg">{drink.price}</span>
           </div>
-          {drink.subtitle && <div className="text-sm italic">({drink.subtitle})</div>}
+          {/* {(drink.subtitle) && <div className="text-sm italic">({drink.subtitle})</div>} */}
         </li>
       ));
     }
