@@ -4,13 +4,13 @@ import heroImage from '/heroImage.png'
 const Footer = () => {
   return (
     <div id="Hours" className="w-full border-t-4">
-      <div className="w-full min-h-fit flex justify-around py-4 bg-blue-300 rounded">
+      <div className="w-full min-h-fit flex justify-around py-4 bg-blue-300 rounded px-2">
         <div>
           <img src={heroImage} alt="heroImage" className="sm:h-52 sm:w-52 sm:block hidden"/>
         </div>
-        <div id="About Us" className="flex flex-col justify-start p-2 rounded">
+        <div id="About Us" className="flex flex-col justify-start p-2 rounded gap-2">
           <h3 className="text-xl font-serif">HOURS:</h3>
-          <div className="text-md">
+          <div className="text-md flex flex-col gap-1">
 
           <div>Sunday: {aboutUs.hours}</div>
           <div>Monday: {aboutUs.hours}</div>
@@ -21,7 +21,7 @@ const Footer = () => {
           <div>Saturday: {aboutUs.hours}</div>
           </div>
         </div>
-        <div className="bg-blue-300 p-2 rounded h-min">
+        <div className="bg-blue-300 p-2 rounded h-min flex flex-col gap-2">
           <h3 className="text-xl font-serif">LOCATION:</h3>
           <div className="text-base">
 
@@ -29,11 +29,14 @@ const Footer = () => {
           <div>{aboutUs.city}</div>
           </div>
         </div>
-        <div className="bg-blue-300 p-2 rounded h-min">
+        <div className="bg-blue-300 p-2 rounded h-min flex-col gap-2 flex">
           <h3 className="text-xl font-serif">PHONE:</h3>
           <div className="text-base">
 
           <div>{aboutUs.phone}</div>
+          <h3 className="text-xl font-serif py-2">EMAIL:</h3>
+          <div>
+            <a href={`mailto:${aboutUs.email}`}>{aboutUs.email}</a></div>
           </div>
         </div>
       </div>

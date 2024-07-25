@@ -1,5 +1,5 @@
 
-import heroImage from '/heroImage.png'
+import heroImage from '/SurfLoungeNewLogo.png'
 
 const Hero = () => {
   return (
