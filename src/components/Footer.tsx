@@ -34,8 +34,8 @@ const Footer = () => {
           <div className="text-base">
 
           <div>{aboutUs.phone}</div>
-          <h3 className="text-xl font-serif py-2">EMAIL:</h3>
-          <div>
+          <h3 className="text-xl font-serif pt-4">EMAIL:</h3>
+          <div className="pt-2">
             <a href={`mailto:${aboutUs.email}`}>{aboutUs.email}</a></div>
           </div>
         </div>
