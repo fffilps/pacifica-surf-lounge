@@ -1,5 +1,6 @@
 import { aboutUs } from "../data/aboutUs";
-import heroImage from '/heroImage.png'
+// import heroImage from '/heroImage.png'
+import heroImage from '/SurfLoungeNewLogo.png'
 
 const Footer = () => {
   return (
