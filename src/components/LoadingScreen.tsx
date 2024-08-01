@@ -1,7 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const LoadingScreen = () => {
-  const [visible, setVisible] = useState(true);
 
 const [open, setOpen] = useState(true)
 
