@@ -1,4 +1,5 @@
 import { useState } from "react";
+import surfLoungePic from '../assets/photoLibrary/surfLoungePic.jpeg'
 
 const LoadingScreen = () => {
 
@@ -9,8 +10,8 @@ const [open, setOpen] = useState(true)
   const customWidth = "max-w-md";
   const customBackground = "bg-white/90";
   return (
-    <div
-      className={`${customBackground} fixed z-50 inset-0 flex justify-center items-center transition-colors ${
+    <div style={{backgroundImage: surfLoungePic}}
+      className={`${customBackground} fixed z-50 inset-0 flex justify-center items-center transition-colors bg-cover bg-no-repeat ${
         open ? "visible bg-black/20" : "invisible"
       }`}
       onClick={() => {}}

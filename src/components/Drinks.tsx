@@ -18,7 +18,7 @@ const Drinks = () => {
 
   return (
     <div id="Drinks">
-        <div className="flex flex-col bg-blue-300 lg:grid-cols-2 lg:grid">
+        <div className="flex flex-col bg-blue-300 lg:grid-cols-2 lg:grid pb-2">
             {drinkListTabs.map(drinkName => <div className="" key={drinkName} onClick={() => handleClick(drinkName)}><DrinkCard clickedTab={clickedTab} drinkSection={drinkName} activeTab={activeTab}/></div>)}
             {/* <DrinkCard drinkSection={drinkListTabs} /> */}
             

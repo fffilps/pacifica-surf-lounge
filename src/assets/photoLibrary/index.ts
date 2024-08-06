@@ -8,9 +8,8 @@ import bar7 from "./7.jpg";
 import bar8 from "./8.jpg";
 import bar9 from "./9.jpg";
 import bar10 from "./10.jpg";
-import bar11 from "./11.jpg";
 import bar12 from "./12.jpg";
-import bar13 from "./13.jpg";
+// import bar13 from "./13.jpg";
 import bar14 from "./14.jpg";
 import bar15 from "./15.jpg";
 import bar16 from "./16.jpg";
@@ -28,6 +27,12 @@ import bar27 from "./27.jpg";
 import bar28 from "./28.jpg";
 import bar29 from "./29.jpg";
 import bar30 from "./30.jpg";
+import bar31 from "./31.jpeg";
+import bar32 from "./32.jpeg";
+import bar33 from "./33.jpeg";
+import bar34 from "./34.jpeg";
+import bar35 from "./35.jpeg";
+import bar36 from "./36.jpeg";
 
 export const barImages = [
   bar1,
@@ -41,6 +46,7 @@ export const barImages = [
   bar9,
   bar10,
   bar15,
+  bar34
 ];
 
 export const barImages2 = [
@@ -54,17 +60,21 @@ export const barImages2 = [
   bar23,
   bar24,
   bar25,
+  bar35,
+  
 ]
 export const barImages3 = [
-  bar11,
   bar12,
-  bar13,
   bar14,
   bar26,
   bar27,
   bar28,
   bar29,
   bar30,
+  bar31,
+  bar32,
+  bar33,
+  bar36
 ]
 
 // export default barImages; barImages2;
