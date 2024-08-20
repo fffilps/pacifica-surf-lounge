@@ -29,7 +29,7 @@ const [open, setOpen] = useState(true)
           X
         </button> */}
         <div className="p-4">
-          <div>Are you 18 years or older?</div>
+          <div>Are you 21 years or older?</div>
           <div className="flex gap-2 justify-around items-center">
             <button className="bg-green-500 px-4 py-2 rounded-md text-white" onClick={() => setOpen(false)}>
               Yes
